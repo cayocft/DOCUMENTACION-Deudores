@@ -197,7 +197,7 @@
         "mensaje": "Registro deuda creado correctamente"
     }
 
-#### 5.2 Obtener registro de deuda "Le debo" (estado 0)
+#### 5.2 Obtener registro de deuda "Le debo" (tipo 0)
 
     Ruta: /obtener-registro-deuda-deben/:id_usuario/:estado
     Método: GET
@@ -270,7 +270,7 @@
         "mensaje": "Registros obtenidos correctamente"
     }
 
-#### 5.3 Obtener registro de deuda "Me deben" (estado:1)
+#### 5.3 Obtener registro de deuda "Me deben" (tipo:1)
 
     Ruta: /obtener-registro-deuda-pagar/:id_usuario/:estado
     Método: GET
