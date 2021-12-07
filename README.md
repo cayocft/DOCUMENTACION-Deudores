@@ -199,12 +199,12 @@
 
 #### 5.2 Obtener registro de deuda "Le debo" (tipo 0)
 
-    Ruta: /obtener-registro-deuda-deben/:id_usuario/:estado
+    Ruta: /obtener-registro-deuda-deben/:id_usuario/:tipo
     Método: GET
 
 #### Datos recibidos por URL
     id_usuario: integer
-    estado: integer
+    tipo: integer
 #### Ejemplo de datos recibidos por URL
     registro_deuda/obtener-registro-deuda-deben/3/0
 
@@ -272,12 +272,12 @@
 
 #### 5.3 Obtener registro de deuda "Me deben" (tipo:1)
 
-    Ruta: /obtener-registro-deuda-pagar/:id_usuario/:estado
+    Ruta: /obtener-registro-deuda-pagar/:id_usuario/:tipo
     Método: GET
 
 #### Datos recibidos por URL
     id_usuario: integer
-    estado: integer
+    tipo: integer
 #### Ejemplo de datos recibidos por URL
     registro_deuda/obtener-registro-deuda-pagar/3/1
 
