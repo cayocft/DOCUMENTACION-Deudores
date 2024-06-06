@@ -9,7 +9,7 @@
 ## Servicios 
 
 ### 1. Datos del Servidor
-    Servidor: https://backend-deudores.herokuapp.com
+    Servidor: https://novel-heather-cft-99b6f305.koyeb.app
     PREFIJO: /api
 
 ### 2. Datos estados deudores
